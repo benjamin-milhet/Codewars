@@ -1,0 +1,1 @@
+SELECT name, greeting, SUBSTRING(greeting from '#([0-9]+)') AS user_id FROM greetings;
